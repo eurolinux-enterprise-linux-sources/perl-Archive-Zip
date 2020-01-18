@@ -1,6 +1,6 @@
 Name:           perl-Archive-Zip
 Version:        1.30
-Release:        10.1%{?dist}
+Release:        11%{?dist}
 Summary:        Perl library for accessing Zip archives
 
 Group:          Development/Libraries
@@ -84,6 +84,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.30-11
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.30-10.1
 - Rebuild for perl 5.16
 
